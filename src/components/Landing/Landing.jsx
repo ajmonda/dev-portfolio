@@ -14,12 +14,17 @@ const onStepExit = () => {
 
 export default function Landing() {
   return (
+    <>
+      <div className="me">
+        
+      </div>
     <div className="landing">
       <Scrollama offset={0.4} onStepEnter={onStepEnter} onStepExit={onStepExit} debug>
         <Step>
           <h1>Hi. I'm Tony, and I love a challenge.</h1>
         </Step>
       </Scrollama>
-    </div>
+      </div>
+      </>
   );
 }

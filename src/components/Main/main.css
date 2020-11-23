@@ -1,0 +1,28 @@
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.bio {
+  padding: 10% 0 10% 10%;
+  padding-top: 100vh;
+  margin: 30vh 0;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.landing {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.content {
+  width: 50vw;
+}

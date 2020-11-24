@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div className="app">
       <Landing />
-      <Main />
+      {/* <Main /> */}
     </div>
   );
 }

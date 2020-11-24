@@ -1,30 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import { Scrollama, Step } from "react-scrollama";
+
+import Main from "../Main/Main";
 
 import "./landing.css";
 
-const onStepEnter = () => {
-    console.log("enter")
-}
-
-const onStepExit = () => {
-  console.log("exit")
-}
-
-
 export default function Landing() {
+  const [expanded, setExpanded] = useState(false);
+
+  const onStepEnter = () => {
+    setExpanded(!expanded);
+  };
+
   return (
     <>
-      <div className="me">
-        
+      <div className="landing">
+        <Scrollama offset={0.4} onStepEnter={onStepEnter} debug>
+          <Step>
+            <h1>Hi. I'm Tony, and I love a challenge.</h1>
+          </Step>
+        </Scrollama>
       </div>
-    <div className="landing">
-      <Scrollama offset={0.4} onStepEnter={onStepEnter} onStepExit={onStepExit} debug>
-        <Step>
-          <h1>Hi. I'm Tony, and I love a challenge.</h1>
-        </Step>
-      </Scrollama>
-      </div>
-      </>
+      <Step>
+        <Main style={{ minWidth: expanded ? "100vw" : "0" }} bioStyle={{opacity: expanded ? '1' : '0'}} />
+      </Step>
+    </>
   );
 }

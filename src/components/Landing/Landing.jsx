@@ -22,7 +22,10 @@ export default function Landing() {
         </Scrollama>
       </div>
       <Step>
-        <Main style={{ minWidth: expanded ? "100vw" : "0" }} bioStyle={{opacity: expanded ? '1' : '0'}} />
+        <Main
+          style={{ minWidth: expanded ? "100vw" : "0" }}
+          bioStyle={{ opacity: expanded ? "1" : "0" }}
+        />
       </Step>
     </>
   );

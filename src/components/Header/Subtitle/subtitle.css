@@ -1,5 +1,4 @@
-
-.subheader {
+.subtitle {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -14,23 +13,21 @@
   animation-delay: 0.8s;
 }
 
-.subheader h2 {
+.subtitle h2 {
   margin: 0;
   font-family: "Quicksand";
   opacity: 0;
   animation: fade-in-down ease 1.5s forwards;
   animation-delay: 1.5s;
 }
-
-.subheaderLinks a {
+.subtitleLinks a {
   font-size: 2.5vw;
   color: black;
   text-decoration: none;
   padding: 0 1vw;
-
 }
 
-.subheaderLinks {
+.subtitleLinks {
   opacity: 0;
   animation: fade-in-down ease 1s forwards;
   animation-delay: 2.5s;

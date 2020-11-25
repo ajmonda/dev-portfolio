@@ -1,11 +1,11 @@
 import React from "react";
 
-import "./subheader.css";
+import "./subtitle.css";
 
-export default function Subheader() {
+export default function Subtitle() {
   return (
-    <div className="subheader">
-      <div className="subheaderLinks">
+    <div className="subtitle">
+      <div className="subtitleLinks">
         <a href="https://github.com/ajmonda">
           {" "}
           <i class="devicon-github-plain"></i>

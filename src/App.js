@@ -1,6 +1,6 @@
 import React from "react";
 
-import Landing from "./components/Landing/Landing";
+import Landing from "./components/Header/Header";
 // import Skills from "./components/Skills";
 // import Projects from "./components/Projects";
 // import Contact from "./components/Contact";

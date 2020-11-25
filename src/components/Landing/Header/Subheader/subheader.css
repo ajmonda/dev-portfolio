@@ -1,14 +1,37 @@
+
 .subheader {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 65vw;
   background-color: #ffd700;
   margin-left: 5vw;
-  padding: 1vw 1.5vw;
+  padding: 0.5vw 1vw;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: grow-left ease 1s forwards;
+  animation-delay: 0.8s;
 }
 
 .subheader h2 {
-  margin: 0 auto;
+  margin: 0;
   font-family: "Quicksand";
+  opacity: 0;
+  animation: fade-in-down ease 1.5s forwards;
+  animation-delay: 1.5s;
+}
+
+.subheaderLinks a {
+  font-size: 2.5vw;
+  color: black;
+  text-decoration: none;
+  padding: 0 1vw;
+
+}
+
+.subheaderLinks {
+  opacity: 0;
+  animation: fade-in-down ease 1s forwards;
+  animation-delay: 2.5s;
 }

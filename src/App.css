@@ -1,11 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Ranga&display=swap&family=Open+Sans:wght@300;400;600&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ranga&display=swap&family=Yesteryear&display=swap&family=Open+Sans:wght@300;400;600&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes grow-left {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes grow-up {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
 
 .app {
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 100vw;
-  padding: 5vw;
+  margin: 0;
 }
 
 .columnContainer {
@@ -35,4 +72,8 @@
     hsla(291, 35%, 15%, 1) 20%,
     hsla(3, 100%, 64%, 1) 80%
   );
+  transform: scaleY(0);
+  transform-origin: bottom;
+  animation: grow-up ease 1s forwards;
+  animation-delay: 2s;
 }

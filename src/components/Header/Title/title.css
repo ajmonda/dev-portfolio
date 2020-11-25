@@ -6,7 +6,7 @@
   position: absolute;
 }
 .title h1 {
-  font-family: "Ranga", sans-serif;
+  font-family: "Ranga";
   margin: auto;
   line-height: 0.75;
   margin-left: 31vw;
@@ -20,17 +20,33 @@
 #tony,
 #tonyTextFill {
   font-size: 15vw;
-  animation: fade-in-down ease 1.5s forwards;
+  /* animation: fade-in-down ease 1.5s forwards; */
+  /* animation-delay: 0.5s; */
+}
+#tony {
+  animation: fade-in-down ease 0.35s forwards;
+  animation-delay: 0.5s;
+}
+#tonyTextFill {
+  animation: fade-in-down ease 0.7s forwards;
   animation-delay: 0.5s;
 }
 #monda,
 #mondaTextFill {
   font-size: 20vw;
-  animation: fade-in-down ease 2s forwards;
+}
+#monda {
+  animation: fade-in-down ease 0.45s forwards;
   animation-delay: 0.8s;
 }
+#mondaTextFill {
+  animation: fade-in-down ease 0.8s forwards;
+  animation-delay: 0.8s;
+}
+
 #tonyTextFill {
   background: -webkit-linear-gradient(
+    180deg,
     hsla(14, 78%, 62%, 1) 0%,
     hsla(16, 93%, 44%, 1) 100%
   );
@@ -39,9 +55,26 @@
 }
 #mondaTextFill {
   background: -webkit-linear-gradient(
+    180deg,
     hsla(14, 78%, 62%, 1) 0%,
     hsla(16, 93%, 44%, 1) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#t {
+  color: #da440f;
+}
+#y {
+  color: #e05b2e;
+}
+#m {
+  color: #db4713;
+}
+#d {
+  color: #e56d46;
+}
+#a {
+  color: #e87551;
 }

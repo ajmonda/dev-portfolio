@@ -15,7 +15,7 @@ export default function Subtitle() {
           <i class="devicon-linkedin-plain"></i>
         </a>
       </div>
-      <h2>Full-Stack Web Developer</h2>
+      <h2>Full-Stack Software Engineer</h2>
     </div>
   );
 }

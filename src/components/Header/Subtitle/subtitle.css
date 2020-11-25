@@ -10,14 +10,14 @@
   transform: scaleX(0);
   transform-origin: left;
   animation: grow-left ease 1s forwards;
-  animation-delay: 0.8s;
+  animation-delay: 0.5s;
 }
 
 .subtitle h2 {
   margin: 0;
   font-family: "Quicksand";
   opacity: 0;
-  animation: fade-in-down ease 1.5s forwards;
+  animation: fade-in-down ease 1s forwards;
   animation-delay: 1.5s;
 }
 .subtitleLinks a {
@@ -30,5 +30,5 @@
 .subtitleLinks {
   opacity: 0;
   animation: fade-in-down ease 1s forwards;
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
 }

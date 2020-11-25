@@ -12,7 +12,7 @@
   margin-left: 31vw;
   color: #e97451;
   letter-spacing: -6px;
-  opacity: 0;
+  /* opacity: 0; */
 }
 .titleText h1 {
   text-shadow: 2px 2px #1dd3b0;
@@ -23,26 +23,26 @@
   /* animation: fade-in-down ease 1.5s forwards; */
   /* animation-delay: 0.5s; */
 }
-#tony {
+/* #tony {
   animation: fade-in-down ease 0.7s forwards;
   animation-delay: 0.5s;
 }
 #tonyTextFill {
   animation: fade-in-down 0.7s forwards;
   animation-delay: 0.5s;
-}
+} */
 #monda,
 #mondaTextFill {
   font-size: 20vw;
 }
-#monda {
+/* #monda {
   animation: fade-in-down ease 0.55s forwards;
   animation-delay: 0.8s;
 }
 #mondaTextFill {
   animation: fade-in-down 0.8s forwards;
   animation-delay: 0.8s;
-}
+} */
 
 #tonyTextFill {
   background: -webkit-linear-gradient(

@@ -1,0 +1,14 @@
+.subheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65vw;
+  background-color: #ffd700;
+  margin-left: 5vw;
+  padding: 1vw 1.5vw;
+}
+
+.subheader h2 {
+  margin: 0 auto;
+  font-family: "Quicksand";
+}

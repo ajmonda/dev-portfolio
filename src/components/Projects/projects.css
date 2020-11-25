@@ -1,9 +1,0 @@
-.projects {
-  background-color: hsl(44, 88%, 66%);
-  position: fixed;
-  height: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 1000;
-  transition: 0.5s ease;
-}

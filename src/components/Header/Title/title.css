@@ -2,26 +2,46 @@
   display: flex;
   flex-direction: column;
 }
-
+.titleTextFill {
+  position: absolute;
+}
 .title h1 {
   font-family: "Ranga", sans-serif;
   margin: auto;
   line-height: 0.75;
   margin-left: 31vw;
-  color: #da3d09;
-  text-shadow: 2px 2px #1dd3b0;
+  color: #e97451;
   letter-spacing: -6px;
   opacity: 0;
 }
-
-#tony {
+.titleText h1 {
+  text-shadow: 2px 2px #1dd3b0;
+}
+#tony,
+#tonyTextFill {
   font-size: 15vw;
   animation: fade-in-down ease 1.5s forwards;
   animation-delay: 0.5s;
 }
-
-#monda {
+#monda,
+#mondaTextFill {
   font-size: 20vw;
   animation: fade-in-down ease 2s forwards;
   animation-delay: 0.8s;
+}
+#tonyTextFill {
+  background: -webkit-linear-gradient(
+    hsla(14, 78%, 62%, 1) 0%,
+    hsla(16, 93%, 44%, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#mondaTextFill {
+  background: -webkit-linear-gradient(
+    hsla(14, 78%, 62%, 1) 0%,
+    hsla(16, 93%, 44%, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

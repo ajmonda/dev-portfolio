@@ -24,11 +24,11 @@
   /* animation-delay: 0.5s; */
 }
 #tony {
-  animation: fade-in-down ease 0.35s forwards;
+  animation: fade-in-down ease 0.7s forwards;
   animation-delay: 0.5s;
 }
 #tonyTextFill {
-  animation: fade-in-down ease 0.7s forwards;
+  animation: fade-in-down 0.7s forwards;
   animation-delay: 0.5s;
 }
 #monda,
@@ -36,11 +36,11 @@
   font-size: 20vw;
 }
 #monda {
-  animation: fade-in-down ease 0.45s forwards;
+  animation: fade-in-down ease 0.55s forwards;
   animation-delay: 0.8s;
 }
 #mondaTextFill {
-  animation: fade-in-down ease 0.8s forwards;
+  animation: fade-in-down 0.8s forwards;
   animation-delay: 0.8s;
 }
 

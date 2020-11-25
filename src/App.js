@@ -1,11 +1,11 @@
 import React from "react";
 
-import Landing from "./components/Header/Header";
-// import Skills from "./components/Skills";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
 // import Projects from "./components/Projects";
 // import Contact from "./components/Contact";
 
-import "./app.css";
+import './App.css'
 
 export default function App() {
   return (
@@ -14,7 +14,8 @@ export default function App() {
       <div className="columnContainer">
       <div className="column" />
       </div>
-      <Landing />
+      <Header />
+      <Main />
       {/* <Skills />
       <Projects />
         <Contact /> */}

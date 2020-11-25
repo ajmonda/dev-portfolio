@@ -8,11 +8,11 @@ export default function Subtitle() {
       <div className="subtitleLinks">
         <a href="https://github.com/ajmonda">
           {" "}
-          <i class="devicon-github-plain"></i>
+          <i className="devicon-github-plain"></i>
         </a>
 
         <a href="http://linkedin.com/in/ajmonda/">
-          <i class="devicon-linkedin-plain"></i>
+          <i className="devicon-linkedin-plain"></i>
         </a>
       </div>
       <h2>Full-Stack Software Engineer</h2>

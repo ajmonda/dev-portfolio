@@ -1,0 +1,14 @@
+.scroll {
+  width: 40vw;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  animation: fade-in-up ease 2.3s forwards;
+  animation-delay: 3s;
+}
+
+.scroll p {
+  color: #1dd3b0;
+  font-family: "Quicksand";
+  font-size: 1.5vw;
+  line-height: 1.5;
+}

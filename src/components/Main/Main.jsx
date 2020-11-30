@@ -20,7 +20,7 @@ export default function Main() {
   return (
     <main>
 <div className="scroll">
-        <Scrollama onStepEnter={onStepEnter} debug>
+        <Scrollama onStepEnter={onStepEnter}>
     
           {bio.map((paragraph, i) => {
             return (
@@ -33,8 +33,8 @@ export default function Main() {
       </Scrollama>
       </div>
 
-      <div className="content">
-        <Picture style={{display: !currentStepIndex || currentStepIndex === 0 ? 'flex' : 'none'}}/>
+      <div className="content" style={{display: !currentStepIndex ? 'none' : 'flex'}}>
+        {/* <Picture style={{display: currentStepIndex === 0 ? 'flex' : 'none'}}/> */}
         <Skills style={{display: currentStepIndex === 1 ? 'flex' : 'none'}}/>
         <Projects style={{display: currentStepIndex === 2 ? 'flex' : 'none'}}/>
         <Contact style={{display: currentStepIndex === 3 ? 'flex' : 'none'}}/>

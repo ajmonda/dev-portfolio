@@ -12,12 +12,12 @@ main {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   padding: 5vh 0;
   position: sticky;
   top: 0;
   display: flex;
-  flex-direction: column;
-  align-content: center;
   width: 50vw;
   height: 100vh;
 }
@@ -25,7 +25,6 @@ main {
 .picture, .skills, .projects, .contact {
   position: absolute;
 }
-
 .content img {
   height: 300px;
   width: 99%;
@@ -41,16 +40,14 @@ h3 {
   color: #da3d09;
   text-shadow: 1px 1px turquoise;
   width: 100%;
-
   animation: fade-in-down ease 1.5s forwards;
 }
+
 p {
   font-family: "Quicksand";
   font-size: 15px;
   color: turquoise;
-
   line-height: 2;
-
   opacity: 0;
   animation: fade-in-down ease 3s forwards;
   animation-delay: 2s;

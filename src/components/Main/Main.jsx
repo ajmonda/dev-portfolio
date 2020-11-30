@@ -20,12 +20,12 @@ export default function Main() {
   return (
     <main>
 <div className="scroll">
-        <Scrollama onStepEnter={onStepEnter}>
+        <Scrollama offset={0.5} onStepEnter={onStepEnter}>
     
           {bio.map((paragraph, i) => {
             return (
               <Step data={i}>
-                <p>{paragraph}</p>
+                <p style={{fontWeight: currentStepIndex === i ? 'bold' : '200'}}>{paragraph}</p>
               </Step>
             );
           })}

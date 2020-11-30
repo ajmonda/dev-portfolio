@@ -1,10 +1,10 @@
 import React from 'react'
-import './style.css'
+import './projects.css'
 
-export default function Projects() {
+export default function Projects(props) {
   return (
-    <div className="projects">
-      
+    <div className="projects" style={props.style}>
+      <h3>Projects</h3>
     </div>
   )
 }

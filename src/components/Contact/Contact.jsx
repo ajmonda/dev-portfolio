@@ -1,10 +1,10 @@
 import React from 'react'
-import './style.css'
+import './contact.css'
 
-export default function Contact() {
+export default function Contact(props) {
   return (
-    <div className="contact">
-      
+    <div className="contact" style={props.style}>
+      <h3>Contact</h3>
     </div>
   )
 }

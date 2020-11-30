@@ -1,80 +1,38 @@
 .title {
   display: flex;
   flex-direction: column;
+  margin-left: 15vw;
+  z-index: 100000;
 }
-.titleTextFill {
-  position: absolute;
-}
-.title h1 {
+h1 {
   font-family: "Ranga";
   margin: auto;
   line-height: 0.75;
-  margin-left: 31vw;
   color: #e97451;
   letter-spacing: -6px;
-  /* opacity: 0; */
-}
-.titleText h1 {
-  text-shadow: 2px 2px #1dd3b0;
-}
-#tony,
-#tonyTextFill {
-  font-size: 150px;
-  /* animation: fade-in-down ease 1.5s forwards; */
-  /* animation-delay: 0.5s; */
-}
-/* #tony {
-  animation: fade-in-down ease 0.7s forwards;
-  animation-delay: 0.5s;
-}
-#tonyTextFill {
-  animation: fade-in-down 0.7s forwards;
-  animation-delay: 0.5s;
-} */
-#monda,
-#mondaTextFill {
   font-size: 200px;
 }
-/* #monda {
-  animation: fade-in-down ease 0.55s forwards;
-  animation-delay: 0.8s;
-}
-#mondaTextFill {
-  animation: fade-in-down 0.8s forwards;
-  animation-delay: 0.8s;
-} */
 
-#tonyTextFill {
-  background: -webkit-linear-gradient(
-    180deg,
-    hsla(14, 78%, 62%, 1) 0%,
-    hsla(16, 93%, 44%, 1) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-#mondaTextFill {
-  background: -webkit-linear-gradient(
-    180deg,
-    hsla(14, 78%, 62%, 1) 0%,
-    hsla(16, 93%, 44%, 1) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.titleTextFill {
+  position: absolute;
+  color: #e97451;
+  text-shadow: 2px 2px #1dd3b0;
+  z-index: -1;
 }
 
-#t {
-  color: #da440f;
+.titleText h1 {
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(9, 64%, 35%, 1) 20%,
+    hsla(14, 80%, 43%, 1) 40%,
+    hsla(16, 93%, 51%, 1) 60%,
+    hsla(15, 87%, 56%, 1) 80%,
+    hsla(14, 78%, 62%, 1) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #y {
-  color: #e05b2e;
-}
-#m {
-  color: #db4713;
-}
-#d {
-  color: #e56d46;
-}
-#a {
-  color: #e87551;
+  color: #923120;
 }

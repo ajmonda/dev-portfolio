@@ -20,7 +20,7 @@ export default function Main() {
   return (
     <main>
 <div className="scroll">
-        <Scrollama offset={0.5} onStepEnter={onStepEnter}>
+        <Scrollama onStepEnter={onStepEnter}>
     
           {bio.map((paragraph, i) => {
             return (

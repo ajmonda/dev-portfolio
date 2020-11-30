@@ -3,3 +3,29 @@ main {
   display: flex;
   flex-direction: row;
 }
+
+.scroll {
+  width: 30vw;
+  margin-bottom: 50vw;
+}
+
+h3 {
+  margin: 0 auto;
+  font-family: 'Yesteryear';
+  font-size: 75px;
+  color: #da3d09;
+  text-shadow: 1px 1px turquoise;
+  width: 100%;
+
+  
+  }
+  p {
+    font-family: "Quicksand";
+    font-size: 1rem;
+    color: turquoise;
+
+    opacity: 0;
+    animation: fade-in-down ease 3s forwards;
+    animation-delay: 2s;
+
+  }

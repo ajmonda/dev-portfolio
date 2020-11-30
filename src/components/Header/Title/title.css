@@ -19,7 +19,7 @@
 }
 #tony,
 #tonyTextFill {
-  font-size: 15vw;
+  font-size: 150px;
   /* animation: fade-in-down ease 1.5s forwards; */
   /* animation-delay: 0.5s; */
 }
@@ -33,7 +33,7 @@
 } */
 #monda,
 #mondaTextFill {
-  font-size: 20vw;
+  font-size: 200px;
 }
 /* #monda {
   animation: fade-in-down ease 0.55s forwards;

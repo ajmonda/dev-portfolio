@@ -1,13 +1,29 @@
-import React from 'react'
+import React, {useState} from "react";
+import {Scrollama, Step} from 'react-scrollama'
 
-import Scroll from './Scroll/Scroll'
+import About from "../About/About";
+import Skills from "../Skills/Skills";
 
-import './main.css'
+import { bio } from "../../utils/copy";
+
+import "./main.css";
 
 export default function Main() {
   return (
     <main>
-      <Scroll />
+      <div className="scroll">
+        <Scrollama debug>
+      {bio.map((paragraph) => {
+        return (
+          <Step><p>{paragraph}</p></Step>
+        )
+      })}
+          </Scrollama>
+      </div>
+      <div className="content">
+        
+      </div>
+
     </main>
-  )
+  );
 }

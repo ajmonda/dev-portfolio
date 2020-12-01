@@ -1,6 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Ranga&display=swap&family=Yesteryear&display=swap&family=Open+Sans:wght@300;400;600&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes grow-left {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes grow-up {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
 
 .app {
   display: flex;
   flex-direction: column;
-  background-color: darksalmon;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.columnContainer {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 50vw 30vw 20vw;
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+}
+
+.column {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 100%;
+  height: 100%;
+  background: hsla(291, 35%, 15%, 1);
+  background: linear-gradient(
+    hsla(291, 35%, 15%, 1) 20%,
+    hsla(3, 100%, 64%, 1) 80%
+  );
+  background: -moz-linear-gradient(
+    hsla(291, 35%, 15%, 1) 20%,
+    hsla(3, 100%, 64%, 1) 80%
+  );
+  background: -webkit-linear-gradient(
+    hsla(291, 35%, 15%, 1) 20%,
+    hsla(3, 100%, 64%, 1) 80%
+  );
+  transform: scaleY(0);
+  transform-origin: bottom;
+  animation: grow-up ease 1s forwards;
+  animation-delay: 0.5s;
 }

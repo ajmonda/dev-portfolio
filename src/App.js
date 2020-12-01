@@ -1,15 +1,20 @@
 import React from "react";
 
-import Landing from "./components/Landing/Landing";
-import Main from "./components/Main/Main.jsx";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+// import Projects from "./components/Projects";
+// import Contact from "./components/Contact";
 
-import './app.css'
+import "./App.css";
 
 export default function App() {
   return (
     <div className="app">
-      <Landing />
-      {/* <Main /> */}
+      <div className="columnContainer">
+        <div className="column" />
+      </div>
+      <Header />
+      <Main />
     </div>
   );
 }

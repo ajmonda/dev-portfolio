@@ -1,0 +1,38 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15vw;
+  z-index: 100000;
+}
+h1 {
+  font-family: "Ranga";
+  margin: auto;
+  line-height: 0.75;
+  color: #e97451;
+  letter-spacing: -6px;
+  font-size: 200px;
+}
+
+.titleTextFill {
+  position: absolute;
+  color: #e97451;
+  text-shadow: 2px 2px #1dd3b0;
+  z-index: -1;
+}
+
+.titleText h1 {
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(9, 64%, 35%, 1) 20%,
+    hsla(14, 80%, 43%, 1) 40%,
+    hsla(16, 93%, 51%, 1) 60%,
+    hsla(15, 87%, 56%, 1) 80%,
+    hsla(14, 78%, 62%, 1) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#y {
+  color: #923120;
+}

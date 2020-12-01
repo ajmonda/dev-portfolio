@@ -6,19 +6,20 @@ main {
 
 .scroll {
   padding-right: 10px;
-  width: 40vw;
+  width: 39.5vw;
   margin-bottom: 50vw;
-  flex-shrink: 3;
+  flex-shrink: 1;
 }
 
 .content {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
-  padding: 5vh 0;
+  padding: 0;
   position: sticky;
   top: 0;
   display: flex;
-  width: 50vw;
+  width: 35vw;
   height: 100vh;
 }
 
@@ -34,7 +35,6 @@ main {
 
 h3 {
   margin: 0 auto;
-  margin-left: 4vw;
   font-family: "Yesteryear";
   font-size: 75px;
   color: #da3d09;
@@ -45,7 +45,7 @@ h3 {
 
 p {
   font-family: "Quicksand";
-  font-size: 15px;
+  font-size: 16px;
   color: turquoise;
   line-height: 2;
   opacity: 0;

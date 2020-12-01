@@ -17,14 +17,16 @@ export default function Skills(props) {
           <i class="devicon-mongodb-plain" />
           <i class="devicon-postgresql-plain" />
           <i class="devicon-express-original" />
+          <i class="devicon-github-plain" />
+          <i class="devicon-git-plain" />
         </div>
-        <div className="skillsNames">
+        {/* <div className="skillsNames">
           <h4>HTML5, CSS3</h4>
           <h4>JavaScript, Node.js</h4>
           <h4>Ruby, React</h4>
           <h4>Ruby on Rails, MongoDB</h4>
           <h4>PostgreSQL, Express</h4>
-        </div>
+        </div> */}
       </div>
     </div>
   );

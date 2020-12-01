@@ -11,35 +11,54 @@ import { bio } from "../../utils/copy";
 import "./main.css";
 
 export default function Main() {
-  const [currentStepIndex, setCurrentStepIndex] = useState(null);
+  const [currentStepIndex, setCurrentStepIndex] = useState(-1);
 
   const onStepEnter = ({ data }) => {
-    setCurrentStepIndex(data)
+    setCurrentStepIndex(data);
+  };
+
+  const onStepExit = () => {
+    setCurrentStepIndex(-1);
   };
 
   return (
     <main>
-<div className="scroll">
-        <Scrollama onStepEnter={onStepEnter}>
-    
+      <div className="scroll">
+        <p style={{ fontWeight: currentStepIndex < 0 ? "bold" : "200" }}>
+          I'm Tony, and I love a challenge.
+        </p>
+        <Scrollama
+          onStepEnter={onStepEnter}
+          onStepExit={onStepExit}
+        >
           {bio.map((paragraph, i) => {
             return (
               <Step data={i}>
-                <p style={{fontWeight: currentStepIndex === i ? 'bold' : '200'}}>{paragraph}</p>
+                <p
+                  style={{
+                    fontWeight: currentStepIndex === i ? "bold" : "200",
+                  }}
+                >
+                  {paragraph}
+                </p>
               </Step>
             );
           })}
-        
-      </Scrollama>
+        </Scrollama>
       </div>
 
-      <div className="content" style={{display: !currentStepIndex ? 'none' : 'flex'}}>
-        {/* <Picture style={{display: currentStepIndex === 0 ? 'flex' : 'none'}}/> */}
-        <Skills style={{display: currentStepIndex === 1 ? 'flex' : 'none'}}/>
-        <Projects style={{display: currentStepIndex === 2 ? 'flex' : 'none'}}/>
-        <Contact style={{display: currentStepIndex === 3 ? 'flex' : 'none'}}/>
+      <div
+        className="content"
+        style={{ display: currentStepIndex < 0 ? "none" : "flex" }}
+      >
+        <Skills style={{ display: currentStepIndex === 0 ? "flex" : "none" }} />
+        <Projects
+          style={{ display: currentStepIndex === 1 ? "flex" : "none" }}
+        />
+        <Contact
+          style={{ display: currentStepIndex === 2 ? "flex" : "none" }}
+        />
       </div>
-
     </main>
   );
 }

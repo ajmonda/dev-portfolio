@@ -5,8 +5,10 @@ main {
 }
 
 .scroll {
+  display: flex;
+  flex-direction: column;
   padding-right: 10px;
-  width: 39.5vw;
+  width: 38vw;
   margin-bottom: 50vw;
   flex-shrink: 1;
 }
@@ -16,16 +18,12 @@ main {
   display: flex;
   flex-direction: column;
   padding: 0;
-  position: sticky;
-  top: 0;
+
   display: flex;
   width: 35vw;
   height: 100vh;
 }
 
-.picture, .skills, .projects, .contact {
-  position: absolute;
-}
 .content img {
   height: 300px;
   width: 99%;
@@ -36,20 +34,75 @@ main {
 h3 {
   margin: 0 auto;
   font-family: "Yesteryear";
-  font-size: 75px;
+  font-size: 55px;
   color: #da3d09;
-  text-shadow: 1px 1px turquoise;
+  text-shadow: 1px 0.5px turquoise;
   width: 100%;
-  animation: fade-in-down ease 1.5s forwards;
 }
 
 p {
+  padding: 10px 0;
   font-family: "Quicksand";
-  font-size: 16px;
+  font-size: 15px;
   color: turquoise;
   line-height: 2;
-  opacity: 0;
-  animation: fade-in-down ease 3s forwards;
-  animation-delay: 2s;
-  margin: 5vh 0;
+}
+
+.contactContainer {
+  display: grid;
+  grid-template-columns: 38vw 32vw;
+  flex-direction: row;
+  width: 70vw;
+}
+
+span {
+  font-weight: bold;
+  color: #ffd700;
+}
+
+.scroll button {
+  margin: 10px 0;
+  width: 130px;
+  align-self: center;
+  padding: 10px;
+  box-shadow: 1px 1.5px turquoise;
+
+  background: linear-gradient(
+    90deg,
+    hsla(58, 77%, 65%, 1) 0%,
+    hsla(24, 85%, 52%, 1) 50%,
+    hsla(344, 81%, 54%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(58, 77%, 65%, 1) 0%,
+    hsla(24, 85%, 52%, 1) 50%,
+    hsla(344, 81%, 54%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    hsla(58, 77%, 65%, 1) 0%,
+    hsla(24, 85%, 52%, 1) 50%,
+    hsla(344, 81%, 54%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBE663", endColorstr="#ED711E", GradientType=1 );
+  background-size: 600% 600%;
+
+  -webkit-animation: move-gradient 7s ease infinite;
+  -moz-animation: move-gradient 7s ease infinite;
+  animation: move-gradient 7s ease infinite;
+
+  font-weight: bold;
+  font-family: "Quicksand";
+
+  border-radius: 10px;
+  border-style: none;
+
+}
+.scroll button:focus {
+  margin-left: 4px;
+  outline: none;
+  box-shadow: none;
 }

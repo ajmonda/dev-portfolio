@@ -7,16 +7,31 @@
   background-color: #ffd700;
   margin-left: 10vw;
   padding: 0.5vw 1vw;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: grow-left ease-in 0.5s forwards;
+  animation-delay: 0.4s;
+
 }
 
 .subtitle h2 {
   font-size: 16px;
   margin: 0;
   font-family: "Quicksand";
+  opacity: 0;
+  animation: fade-in-down ease 1s forwards;
+
+  animation-delay: 1.5s;
 }
 .subtitleLinks i {
   font-size: 16px;
   color: black;
   text-decoration: none;
 padding: 0 8px;
+
+opacity: 0;
+  animation: fade-in-down ease 2s forwards;
+
+  animation-delay: 1.5s;
 }

@@ -19,8 +19,8 @@ export default function Main() {
           When I lost my job as a bartender in Brooklyn due to the pandemic, I
           enrolled in General Assembly New York's intensive software engineering
           immersive program. After twelve weeks I emerged with robust training
-          in full-stack development as well as a diverse and <span>relevant toolbelt
-          of programming languages</span> and frameworks.
+          in full-stack development as well as a diverse and relevant toolbelt
+          of programming languages and frameworks.
         </p>
 
         <p>
@@ -34,9 +34,9 @@ export default function Main() {
         <p>
           As an artist, I learned to <span>synthesize and implement</span> that information
           within my own work. As an educator, I was tasked with
-          reassembling those complexities in an <span>accessible</span> manner for students. As a
+          reassembling those complexities in an accessible manner for students. As a
           counselor and industry worker, all these dots had to be connected in
-          order to <span>meet a client's needs</span>.
+          order to meet a client's needs.
         </p>
 
         <p>
@@ -50,7 +50,7 @@ export default function Main() {
             Since graduating from boot camp, I've been on the lookout for my
             next challenge. I am constantly honing and leveling up my skillset,
             building personal passion projects, and engaging with the industry.
-            Currently, I'm seeking full-time work where I can continue that
+            Currently, I'm <span>seeking full-time work</span> where I can continue that
             growth while helping your organization reach its goals.
           </p>
           <Contact />

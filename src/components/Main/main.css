@@ -11,6 +11,12 @@ main {
   width: 38vw;
   margin-bottom: 50vw;
   flex-shrink: 1;
+
+  opacity: 0;
+  animation: fade-in-up ease 3s forwards;
+
+  animation-delay: 1.5s;
+  
 }
 
 .content {
@@ -22,6 +28,12 @@ main {
   display: flex;
   width: 35vw;
   height: 100vh;
+
+  opacity: 0;
+  animation: fade-in-down ease 2s forwards;
+
+  animation-delay: 1s;
+
 }
 
 .content img {
@@ -61,48 +73,53 @@ span {
 }
 
 .scroll button {
+  color: white;
+  border-style: 1px;
+  text-shadow: 0.5px 1px black;
   margin: 10px 0;
-  width: 130px;
+  width: 135px;
   align-self: center;
   padding: 10px;
-  box-shadow: 1px 1.5px turquoise;
+  /* box-shadow: 1px 1.5px turquoise; */
+
+  background: hsla(24, 85%, 52%, 1);
 
   background: linear-gradient(
-    90deg,
-    hsla(58, 77%, 65%, 1) 0%,
+    80deg,
     hsla(24, 85%, 52%, 1) 50%,
     hsla(344, 81%, 54%, 1) 100%
   );
 
   background: -moz-linear-gradient(
-    90deg,
-    hsla(58, 77%, 65%, 1) 0%,
+    80deg,
     hsla(24, 85%, 52%, 1) 50%,
     hsla(344, 81%, 54%, 1) 100%
   );
 
   background: -webkit-linear-gradient(
-    hsla(58, 77%, 65%, 1) 0%,
+    80deg,
     hsla(24, 85%, 52%, 1) 50%,
     hsla(344, 81%, 54%, 1) 100%
   );
 
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ED711E", endColorstr="#E9295C", GradientType=1 );
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBE663", endColorstr="#ED711E", GradientType=1 );
   background-size: 600% 600%;
 
-  -webkit-animation: move-gradient 7s ease infinite;
-  -moz-animation: move-gradient 7s ease infinite;
-  animation: move-gradient 7s ease infinite;
+  -webkit-animation: move-gradient 5s ease infinite;
+  -moz-animation: move-gradient 5s ease infinite;
+  animation: move-gradient 5s ease infinite;
 
   font-weight: bold;
   font-family: "Quicksand";
 
-  border-radius: 10px;
+  border-radius: 5px;
   border-style: none;
-
 }
-.scroll button:focus {
-  margin-left: 4px;
-  outline: none;
-  box-shadow: none;
+
+.scroll button:hover {
+  text-emphasis: bold;
+  cursor: pointer;
+  color: black;
+  text-shadow: 0.5px 0.5px turquoise;
 }

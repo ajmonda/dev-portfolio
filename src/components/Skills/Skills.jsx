@@ -1,32 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
+
+import { skills } from "../../utils/copy";
+
 import "./skills.css";
 
 export default function Skills(props) {
+  const [skillNameDisplay, setSkillNameDisplay] = useState(null);
+
   return (
     <div className="skills" style={props.style}>
       <h3>Skills</h3>
       <div className="skillsList">
         <div className="skillsIcons">
-          <i class="devicon-html5-plain" />
-          <i class="devicon-css3-plain" />
-          <i class="devicon-javascript-plain" />
-          <i class="devicon-nodejs-plain" />
-          <i class="devicon-ruby-plain" />
-          <i class="devicon-react-original" />
-          <i class="devicon-rails-plain" />
-          <i class="devicon-mongodb-plain" />
-          <i class="devicon-postgresql-plain" />
-          <i class="devicon-express-original" />
-          <i class="devicon-github-plain" />
-          <i class="devicon-git-plain" />
+          {skills.map((skill, i) => {
+            return (
+              <i
+                key={i}
+                className={skill.icon}
+                onMouseEnter={() => setSkillNameDisplay(i)}
+                onMouseLeave={() => setSkillNameDisplay(null)}
+              />
+            );
+          })}
         </div>
-        {/* <div className="skillsNames">
-          <h4>HTML5, CSS3</h4>
-          <h4>JavaScript, Node.js</h4>
-          <h4>Ruby, React</h4>
-          <h4>Ruby on Rails, MongoDB</h4>
-          <h4>PostgreSQL, Express</h4>
-        </div> */}
+        <div className="skillsNames">
+          {skills.map((skill, i) => {
+            return (
+              <h4
+                key={i}
+                style={{ display: skillNameDisplay === i ? "flex" : "none" }}
+              >
+                {skill.name}
+              </h4>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

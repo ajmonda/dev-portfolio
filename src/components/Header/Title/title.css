@@ -1,22 +1,24 @@
 .title {
   display: flex;
   flex-direction: column;
-  margin-left: 15vw;
+  margin-left: 9.5vw;
   z-index: 100000;
 }
 h1 {
   font-family: "Ranga";
+  /* font-family: "Quicksand"; */
+  /* font-family: "Yesteryear"; */
   margin: auto;
   line-height: 0.75;
   color: #e97451;
-  letter-spacing: -6px;
-  font-size: 200px;
+  letter-spacing: -2px;
+  font-size: 125px;
 }
 
 .titleTextFill {
   position: absolute;
   color: #e97451;
-  text-shadow: 2px 2px #1dd3b0;
+  text-shadow: 1px 1.5px #1dd3b0;
   z-index: -1;
 }
 
@@ -29,7 +31,7 @@ h1 {
     hsla(15, 87%, 56%, 1) 80%,
     hsla(14, 78%, 62%, 1) 100%
   );
-
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

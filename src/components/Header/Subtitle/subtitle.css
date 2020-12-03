@@ -10,8 +10,8 @@
 
   transform: scaleX(0);
   transform-origin: left;
-  animation: grow-left ease-in 0.5s forwards;
-  animation-delay: 0.4s;
+  animation: grow-left ease-in 0.7s forwards;
+  animation-delay: 0.5s;
 
 }
 
@@ -20,9 +20,9 @@
   margin: 0;
   font-family: "Quicksand";
   opacity: 0;
-  animation: fade-in-down ease 1s forwards;
+  animation: fade-in-down ease 1.4s forwards;
 
-  animation-delay: 1.5s;
+  animation-delay: 1.3s;
 }
 .subtitleLinks i {
   font-size: 16px;
@@ -33,5 +33,5 @@ padding: 0 8px;
 opacity: 0;
   animation: fade-in-down ease 2s forwards;
 
-  animation-delay: 1.5s;
+  animation-delay: 2s;
 }

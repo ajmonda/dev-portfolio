@@ -112,7 +112,7 @@
 
   transform: scaleX(0);
   transform-origin: bottom;
-  animation: grow-up ease-in 0.5s forwards;
+  animation: grow-up ease-in 0.7s forwards;
   animation-delay: 0.4s;
 
 }

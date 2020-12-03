@@ -1,7 +1,6 @@
 .title {
   display: flex;
   flex-direction: column;
-  margin-left: 9.5vw;
   z-index: 100000;
 }
 h1 {

@@ -15,7 +15,7 @@ export default function App() {
         <div className="column" />
       </div>
       <Header />
-      <Nav />
+      {/* <Nav /> */}
       <Main />
     </div>
   );

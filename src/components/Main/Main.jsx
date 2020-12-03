@@ -11,7 +11,9 @@ export default function Main() {
     <main>
       <div className="scroll">
         <p style={{
-          fontWeight: "bold" }}>
+          fontWeight: "bold",
+          marginTop: '0',
+        paddingTop: '0'}}>
           Hi. I'm Tony, and I love a challenge.
         </p>
 

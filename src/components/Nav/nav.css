@@ -1,8 +1,25 @@
 nav {
-  display: flex;
-  flex-direction: column;
+  position: fixed;
+  width: 15vw;
   position: fixed;
   right: 0;
-  bottom: 0;
   align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLinks {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav a {
+  font-family: "Quicksand";
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  text-align: center;
 }

@@ -57,6 +57,9 @@ export default function Main() {
           </p>
           <Contact />
         </div>
+        <p style={{
+          textAlign: "center",
+      marginBottom: '50px'  }}>I hope to hear from you!</p>
       </div>
       <div className="content">
         <Skills />

@@ -4,7 +4,6 @@
   z-index: 100000;
 }
 h1 {
-  min-width: 100vw;
   font-family: "Ranga";
   margin: auto;
   line-height: 0.75;
@@ -21,7 +20,7 @@ h1 {
 }
 
 .titleText h1 {
-  min-width: 100vw;
+  /* min-width: 100vw; */
   background: -webkit-linear-gradient(
     90deg,
     hsla(9, 64%, 35%, 1) 20%,

@@ -1,10 +1,9 @@
 .projectHeader {
   margin: 3px 0 10px 0;
   align-items: center;
-  width: 80vw;
   background-color: #ffd700;
   padding: 0.5vw 1vw;
-  width: 100%;
+  /* width: 100%; */
   justify-content: space-between;
   display: flex;
 }

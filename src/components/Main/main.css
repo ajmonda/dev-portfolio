@@ -1,5 +1,5 @@
 main {
-  padding: 0 15vw;
+  margin: 0 15vw;
   display: grid;
   grid-template-columns: 40vw 30vw;
   flex-direction: row;
@@ -10,14 +10,10 @@ main {
   flex-direction: column;
   padding-right: 10px;
   width: 38vw;
-  margin-bottom: 50vw;
   flex-shrink: 1;
-
   opacity: 0;
   animation: fade-in-up ease 3.5s forwards;
-
   animation-delay: 1.5s;
-  
 }
 
 .content {

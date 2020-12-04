@@ -2,9 +2,7 @@ import React from "react";
 
 import "./project-header.css";
 
-
 export default function ProjectHeader(props) {
-
   return (
     <div className="projectHeader">
       <div className="projectIcons">
@@ -13,11 +11,24 @@ export default function ProjectHeader(props) {
         })}
       </div>
       <div className="projectHeadRight">
-      <h2 style={{ fontWeight: '400', marginRight: '10px' }}>{props.projectTitle}</h2><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-</svg>
-        </div>
-
+        <h2 style={{ fontWeight: "400", marginRight: "10px" }}>
+          {props.projectTitle}
+        </h2>
+        <svg
+          fontWeight="bold"
+          width="1em"
+          height="1em"
+          viewBox="0 0 16 16"
+          class="bi bi-chevron-down"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+          />
+        </svg>
+      </div>
     </div>
   );
 }

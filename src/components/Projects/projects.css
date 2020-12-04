@@ -1,4 +1,9 @@
-/* .projects {
+.projects {
+line-height: 0.85;
+  width: 67vw;
+}
 
-  width: 100%;
-} */
+.projectHeadRight {
+  display: flex;
+  flex-direction: row;
+}

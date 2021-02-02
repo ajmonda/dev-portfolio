@@ -10,6 +10,7 @@ export default function ProjectHeader(props) {
           return <i className={icon}></i>;
         })}
       </div>
+
       <div className="projectHeadRight">
         <h2 style={{ fontWeight: "400", marginRight: "10px" }}>
           {props.projectTitle}

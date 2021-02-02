@@ -9,6 +9,7 @@ export default function Skills(props) {
 
   return (
     <div className="skills" style={props.style}>
+      <img src="https://i.imgur.com/yVseRYX.png" alt="me"/>
       <h3>Skills</h3>
       <div className="skillsList">
         <div className="skillsIcons">

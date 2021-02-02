@@ -1,9 +1,14 @@
 .projects {
-line-height: 0.85;
-  width: 67vw;
+  margin-left: -14vw;
+/* line-height: 0.85; */
+width: 97vw;
 }
 
 .projectHeadRight {
   display: flex;
   flex-direction: row;
+}
+
+.projects h3 {
+  line-height: 0.8;
 }

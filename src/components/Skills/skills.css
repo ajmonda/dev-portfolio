@@ -1,3 +1,15 @@
+.skills img {
+  border-radius: 360px;
+  min-width: 25vw;
+  max-width: 25vw;
+  min-height: 25vw;
+  max-height: 25vw;
+  opacity: .8;
+  align-self: center;
+  margin-top: -45px;
+  margin-bottom: 50px;
+}
+
 .skills {
   display: flex;
   flex-direction: column;
@@ -43,6 +55,9 @@ h4 {
   font-weight: bold;
   text-shadow: 1px 2px black;
   justify-content: center;
+}
+.skills h3 {
+  transform: translateX(-20px);
 }
 
 .resumeButton {

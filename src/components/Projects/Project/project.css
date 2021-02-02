@@ -1,0 +1,68 @@
+.project {
+  display: flex;
+  flex-direction: column;
+}
+.project-detail {
+  color: gold;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  display: flex;
+  align-content: center;
+}
+.project h4 {
+  color: gold;
+  margin: 0;
+  margin-bottom: -5px;
+  /* text-decoration: underline; */
+  width: 55%;
+  z-index: 10000;
+  font-size: 30px;
+}
+.project-description {
+  display: flex;
+  justify-content: center;
+  width: 53vw;
+  margin-right: 1vw;
+}
+
+.project h5 {
+  font-family: 'Quicksand';
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 0.8;
+  margin-left: -12px;
+  font-style: italic;
+  color: #da3d09;
+  text-shadow: 1px 0.5px turquoise;
+}
+
+.project p {
+  color: gold;
+  margin-top: 0;
+  margin-left: 2px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.project-images {
+display: flex;
+flex-direction: column;
+border-radius: 1rem;
+border-left: none;
+width: 30vw;
+}
+
+.project img {
+  max-width: 50vw;
+  max-height: 700px;
+  align-content: center;
+  margin: 0;
+  border: 1px solid gold;
+  border-radius: 1rem;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}

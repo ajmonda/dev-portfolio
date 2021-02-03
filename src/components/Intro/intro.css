@@ -1,0 +1,29 @@
+.intro {
+  margin: 50px 0;
+  margin-bottom: 0;
+  display: grid;
+  grid-template-columns: 57vw 37vw;
+}
+.intro p {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  align-self: center;
+}
+
+span {
+  color: gold;
+  font-weight: 600;
+}
+#me {
+  filter: saturate(150%);
+  border-radius: 360px;
+  border: 1px solid black;
+  max-width: 25vw;
+  grid-column-start: 2;
+  align-self: center;
+  justify-self: center;
+}

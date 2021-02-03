@@ -38,16 +38,15 @@ textarea {
   align-self: center;
   padding: 10px;
 
-  background: hsla(212, 49%, 64%, 1);
+  background: hsla(183, 57%, 53%, 1);
 
-background: linear-gradient(180deg, hsla(212, 49%, 64%, 1) 0%, hsla(173, 72%, 64%, 1) 100%);
+background: linear-gradient(90deg, hsla(183, 57%, 53%, 1) 0%, hsla(173, 72%, 52%, 1) 100%);
 
-background: -moz-linear-gradient(180deg, hsla(212, 49%, 64%, 1) 0%, hsla(173, 72%, 64%, 1) 100%);
+background: -moz-linear-gradient(90deg, hsla(183, 57%, 53%, 1) 0%, hsla(173, 72%, 52%, 1) 100%);
 
-background: -webkit-linear-gradient(180deg, hsla(212, 49%, 64%, 1) 0%, hsla(173, 72%, 64%, 1) 100%);
+background: -webkit-linear-gradient(90deg, hsla(183, 57%, 53%, 1) 0%, hsla(173, 72%, 52%, 1) 100%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#77A1D1", endColorstr="#61e5d6", GradientType=1 );
-
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#41c4cb", endColorstr="#2cddc8", GradientType=1 );
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ED711E", endColorstr="#E9295C", GradientType=1 );
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBE663", endColorstr="#ED711E", GradientType=1 );

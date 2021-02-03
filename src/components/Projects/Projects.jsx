@@ -13,6 +13,7 @@ export default function Projects() {
           style={{
             color: "gold",
             marginLeft: "10px",
+            marginBottom: "0",
             paddingBottom: "15px",
             alignSelf: "flex-end",
           }}

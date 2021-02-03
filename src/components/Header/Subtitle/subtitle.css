@@ -22,13 +22,14 @@
 }
 
 .subtitle h2 {
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
   font-family: "Quicksand";
 }
 .subtitleLinks i {
-  font-size: 16px;
+  font-size: 24.5px;
   color: black;
   text-decoration: none;
-padding: 0 8px;
+  padding-right: 2vw;
+  padding-left: 0.5vw;
 }

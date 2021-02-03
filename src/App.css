@@ -84,16 +84,16 @@
 
 .main-container {
   display: grid;
-  grid-template-columns: 60vw 1fr;
-  height: 100vh;
-  z-index: -1;
+  grid-template-columns: 57vw 37vw;
+  margin: 3vw;
+  margin-bottom: 0;
 }
 
 .column {
-  position: relativw;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  width: 100%;
+  z-index: -1;
+  position: fixed;
+  width: 40vw;
+  right: 0;
   height: 100vh;
   background: hsla(291, 35%, 15%, 1);
   background: linear-gradient(
@@ -114,4 +114,22 @@
   animation: grow-up 0.8s forwards;
   animation-delay: 0.5s;
 
+}
+
+h3 {
+  margin: 0 auto;
+  font-family: "Yesteryear";
+  font-size: 55px;
+  color: #da3d09;
+  text-shadow: 1px 0.5px turquoise;
+  width: 100%;
+  transform: translateX(-20px);
+}
+
+p {
+  padding: 10px 0;
+  font-family: "Quicksand";
+  font-size: 15px;
+  color: turquoise;
+  line-height: 2;
 }

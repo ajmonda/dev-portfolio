@@ -1,32 +1,35 @@
 import React from "react";
+import Project from "./Project/Project";
 import "./projects.css";
-import ProjectHeader from "./ProjectHeader/ProjectHeader";
 
-export default function Projects(props) {
+import { projects } from "../../utils/copy";
+
+export default function Projects() {
   return (
-    <div className="projects" style={props.style}>
-      <h3>Projects</h3>
-      <ProjectHeader
-        projectIcons={["devicon-react-plain"]}
-        projectTitle="Spotify Niche"
-      />
-      <ProjectHeader
-        projectIcons={["devicon-react-plain", "devicon-rails-plain", "devicon-postgresql-plain"]}
-        projectTitle="Benchmark Workout Log"
-      />
-      <ProjectHeader
-        projectIcons={[
-          "devicon-html5-plain",
-          "devicon-javascript-plain",
-        ]}
-        projectTitle="Write to Congress"
-      />
-      <ProjectHeader
-        projectIcons={[
-          "devicon-react-plain", "devicon-mongodb-plain", "devicon-express-original"
-        ]}
-        projectTitle="Eleventh Hour Rescue"
-        />
+    <div className="projects">
+      <div className="projects-header">
+        <h3>Projects</h3>
+        <p
+          style={{
+            color: "gold",
+            margin: "0",
+            paddingBottom: "15px",
+            alignSelf: "flex-end",
+          }}
+        >
+          (Hover for preview)
+        </p>
+      </div>
+      {projects.map((project) => {
+        return (
+          <Project
+            title={project.title}
+            videoSrc={project.videoSrc}
+            icons={project.icons}
+            summary={project.summary}
+          />
+        );
+      })}
     </div>
   );
 }

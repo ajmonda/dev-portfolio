@@ -1,15 +1,21 @@
 .skills {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 100%;
+  grid-row-start: 3;
+  display: grid;
+  grid-template-columns: 57vw 37vw;
+  height: 100%;
 }
 
 .skillsList {
+  grid-column-start: 2;
   display: flex;
   flex-direction: column;
   padding: 0 1vw;
-  /* margin-left: 2vw; */
+  margin-top: 100px;
+}
+
+.skills-text {
+  grid-column-start: 1;
+  padding-right: 30px;
 }
 
 .skillsIcons {
@@ -36,6 +42,7 @@
 }
 
 h4 {
+  width: 37vw;
   display: flex;
   font-family: "Quicksand";
   font-size: 25px;
@@ -45,9 +52,58 @@ h4 {
   justify-content: center;
 }
 
-.resumeButton {
-  margin-left: 2vw;
+button {
+  grid-column-start: 1;
   width: 100%;
   display: flex;
   justify-content: center;
+
+color: white;
+  border-style: 1px;
+  text-shadow: 0.5px 1px black;
+  width: 135px;
+  margin: 0 auto;
+  align-self: center;
+  padding: 10px;
+
+  background: hsla(24, 85%, 52%, 1);
+
+  background: linear-gradient(
+    80deg,
+    hsla(24, 85%, 52%, 1) 50%,
+    hsla(344, 81%, 54%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    80deg,
+    hsla(24, 85%, 52%, 1) 50%,
+    hsla(344, 81%, 54%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    80deg,
+    hsla(24, 85%, 52%, 1) 50%,
+    hsla(344, 81%, 54%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ED711E", endColorstr="#E9295C", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBE663", endColorstr="#ED711E", GradientType=1 );
+  background-size: 600% 600%;
+
+  -webkit-animation: move-gradient 5s ease infinite;
+  -moz-animation: move-gradient 5s ease infinite;
+  animation: move-gradient 5s ease infinite;
+
+  font-weight: bold;
+  font-family: "Quicksand";
+
+  border-radius: 5px;
+  border-style: none;
+}
+
+button:hover {
+  text-emphasis: bold;
+  cursor: pointer;
+  color: black;
+  text-shadow: 0.5px 0.5px turquoise;
 }

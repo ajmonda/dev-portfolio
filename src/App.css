@@ -83,6 +83,7 @@
 }
 
 .main-container {
+
   display: grid;
   grid-template-columns: 57vw 37vw;
   margin: 3vw;
@@ -109,10 +110,10 @@
     hsla(3, 100%, 64%, 1) 80%
   );
 
-  transform: scaleX(0);
+  /* transform: scaleX(0);
   transform-origin: bottom;
   animation: grow-up 0.8s forwards;
-  animation-delay: 0.5s;
+  animation-delay: 0.5s; */
 
 }
 
@@ -123,7 +124,7 @@ h3 {
   color: #da3d09;
   text-shadow: 1px 0.5px turquoise;
   width: 100%;
-  transform: translateX(-20px);
+  /* transform: translateX(-20px); */
 }
 
 p {

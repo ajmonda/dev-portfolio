@@ -4,8 +4,8 @@ import "./contact.css";
 export default function Contact() {
   return (
     <div className="contact">
+            <div className="contact-text">
       <h3>Contact</h3>
-      <div className="contact-text">
       <p>
         Since graduating from boot camp, I've been on the lookout for my next
         challenge. I am constantly honing and leveling up my skillset, building
@@ -14,16 +14,14 @@ export default function Contact() {
         while helping your organization reach its goals. I am particulary interested in the ways tech can be used purposefully to generate greater accessibility.
       </p>
       <p style={{
-        textAlign: "center"
+          textAlign: "center",
+        margin: "50px"
         }}>I hope to hear from you! &#128075;</p>
       </div>
       <form className="contact-form">
         <input type="hidden" name="contact_number"/>
-        <label>Name</label>
         <input type="text" name="user_name" placeholder="Name" />
-        <label>Email</label>
         <input type="email" name="user_email" placeholder="Email"/>
-        <label>Message</label>
         <textarea rows="5" name="message"></textarea>
         <input id="click" type="submit" value="Send"/>
     </form>

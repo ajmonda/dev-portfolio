@@ -1,9 +1,21 @@
 .projects {
-line-height: 0.85;
-  width: 67vw;
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.projects-header {
+
+  display: flex;
+}
+.projects h3 {
+  width: auto;
+  margin: 0;
 }
 
-.projectHeadRight {
-  display: flex;
-  flex-direction: row;
+.projects img {
+  max-width: 54vw;
+  border: 1px solid white;
+}
+.projects img:hover {
+  opacity: 0.5;
 }

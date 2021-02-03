@@ -1,0 +1,19 @@
+.project {
+  display: grid;
+  grid-template-columns: 57vw 37vw;
+  margin: 30px 0;
+}
+.project-summary {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.project h4 {
+  margin: 5px;
+  color: gold;
+  font-weight: 700;
+}
+.project i {
+  padding: 10px;
+}

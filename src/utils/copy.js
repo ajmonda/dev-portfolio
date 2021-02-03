@@ -8,57 +8,81 @@ export const bio = [
 export const skills = [
   {
     icon: "devicon-html5-plain",
-    name: "HTML5"
+    name: "HTML5",
   },
   {
     icon: "devicon-css3-plain",
-    name: "CSS3"
+    name: "CSS3",
   },
   {
     icon: "devicon-javascript-plain",
-    name: "JavaScript"
+    name: "JavaScript",
   },
   {
     icon: "devicon-nodejs-plain",
-    name: "NodeJS"
+    name: "NodeJS",
   },
   {
     icon: "devicon-ruby-plain",
-    name: "Ruby"
+    name: "Ruby",
   },
   {
     icon: "devicon-react-original",
-    name: "React"
+    name: "React",
   },
   {
     icon: "devicon-rails-plain",
-    name: "Ruby on Rails"
+    name: "Ruby on Rails",
   },
   {
     icon: "devicon-mongodb-plain",
-    name: "MongoDB"
+    name: "MongoDB",
   },
   {
     icon: "devicon-postgresql-plain",
-    name: "PostgreSQL"
+    name: "PostgreSQL",
   },
   {
     icon: "devicon-express-original",
-    name: "Express"
+    name: "Express",
   },
   {
     icon: "devicon-github-plain",
-    name: "GitHub"
+    name: "GitHub",
   },
   {
     icon: "devicon-git-plain",
-  name: "Git"}
-]
+    name: "Git",
+  },
+];
 
-
-// export const components = [
-//   {<Picture />,
-//   <Skills />,
-//   <Projects />,
-//   <Contact />}
-// ]
+export const projects = [
+  {
+    title: "Spotify Niche",
+    icons: [
+      "devicon-react-original",
+      "devicon-css3-plain",
+      "devicon-express-original"
+    ],
+    imageUrl: "https://i.imgur.com/rfjXw0U.png"
+  },
+  {
+    title: "Ruby Dungeon",
+    icons: [
+      "devicon-react-original",
+      "devicon-css3-plain",
+      "devicon-rails-plain",
+      "devicon-postgresql-plain",
+    ],
+    imageUrl: "https://i.imgur.com/QoxFRRn.png"
+  },
+  {
+    title: "Write to Congress",
+    icons: [
+      "devicon-html5-plain",
+      "devicon-css3-plain",
+      "devicon-javascript-plain"
+    ],
+    imageUrl: "https://i.imgur.com/BN6KjPf.png"
+  }
+];

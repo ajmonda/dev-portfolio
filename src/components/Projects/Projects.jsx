@@ -12,7 +12,7 @@ export default function Projects() {
         <p
           style={{
             color: "gold",
-            margin: "0",
+            marginLeft: "10px",
             paddingBottom: "15px",
             alignSelf: "flex-end",
           }}

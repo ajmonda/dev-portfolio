@@ -5,6 +5,7 @@ import Nav from './components/Nav/Nav'
 import Intro from './components/Intro/Intro'
 import Skills from './components/Skills/Skills'
 import Projects from "./components/Projects/Projects";
+import Contact from './components/Contact/Contact'
 
 import "./App.css";
 
@@ -17,6 +18,7 @@ export default function App() {
         <Intro />
         <Skills />
         <Projects />
+        <Contact />
       </div>
     </div>
   );

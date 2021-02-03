@@ -19,7 +19,7 @@ export default function Project(props) {
           onMouseOver={(e) => handleMouseOver(e)}
           onMouseOut={(e) => handleMouseOut(e)}
         >
-          <source src="https://github.com/ajmonda/dev-portfolio/blob/feature/videos/src/media/RubyDungeon.mov?raw=true" />
+          <source src={props.videoSrc} />
         </video>
       </div>
 

@@ -24,7 +24,7 @@ export default function Projects() {
         return (
           <Project
             title={project.title}
-            imageUrl={project.imageUrl}
+            videoSrc={project.videoSrc}
             icons={project.icons}
             summary={project.summary}
           />

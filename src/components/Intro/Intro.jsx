@@ -6,7 +6,7 @@ export default function Intro() {
     <div className="intro">
       <div className="left">
       <p>
-        Hi. I'm Tony, and I love a<span>&nbsp;challenge</span>.
+        Hi. I'm Tony, and I love a<span>&nbsp;challenge</span>. &#128170;
       </p>
        <button className="resume-button">View My Resume</button>
       </div>

@@ -58,15 +58,6 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Spotify Niche",
-    icons: [
-      "devicon-react-original",
-      "devicon-css3-plain",
-      "devicon-express-original"
-    ],
-    imageUrl: "https://i.imgur.com/rfjXw0U.png"
-  },
-  {
     title: "Ruby Dungeon",
     icons: [
       "devicon-react-original",
@@ -74,7 +65,18 @@ export const projects = [
       "devicon-rails-plain",
       "devicon-postgresql-plain",
     ],
-    imageUrl: "https://i.imgur.com/QoxFRRn.png"
+    imageUrl: "https://i.imgur.com/QoxFRRn.png",
+    summary: "A brief but ambitious retro-inspired browser RPG that features a scalable inventory system by way of a back-end built with Rails. Enlist the aid of four great sages (my former instructors) to find your treasure, bypass locked doors, and keep track of your location with a dynamic mini-map."
+  },
+  {
+    title: "Spotify Niche",
+    icons: [
+      "devicon-react-original",
+      "devicon-css3-plain",
+      "devicon-express-original"
+    ],
+    imageUrl: "https://i.imgur.com/rfjXw0U.png",
+    summary: `Analyzes the average popularity of your favorite Spotify artists and assigns a score with 100 being the most obsucre and 1 being, well, basic. An interactive slider shows where those artists fall on that spectrum. Additional features: text graph of favorite genres and a "deep cuts" playlist.`
   },
   {
     title: "Write to Congress",
@@ -83,6 +85,12 @@ export const projects = [
       "devicon-css3-plain",
       "devicon-javascript-plain"
     ],
-    imageUrl: "https://i.imgur.com/BN6KjPf.png"
+    imageUrl: "https://i.imgur.com/BN6KjPf.png",
+    summary: "The first app I ever developed, with dynamic DOM manipulation entirely through vanilla JavaScript and CSS, calls on Google's Civic Information API to provide the user with easy, streamlined and uncluttered access to contacting their representatives."
+  },
+  {
+    title: "Eleventh Hour Rescue",
+    icons: ["devicon-nodejs-plain", "devicon-react-original", "devicon-mongodb-plain", "devicon-express-original"],
+    summary: "Redesign of a nonprofit website in collaboration with a team of UX designers and three other developers. Priority was placed on pixel fidelity to the UX template and full CRUD capability. Here, a reusable React component I created is used by my teammates across all of the interface’s screens."
   }
 ];

@@ -7,4 +7,5 @@ header {
 }
 .top-container {
   display: grid;
+  grid-template-columns: 57vw 37vw
 }

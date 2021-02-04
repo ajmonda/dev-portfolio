@@ -79,6 +79,13 @@ export const projects = [
     summary: `Analyzes the average popularity of your favorite Spotify artists and assigns a score with 100 being the most obsucre and 1 being, well, basic. An interactive slider shows where those artists fall on that spectrum. Additional features: text graph of favorite genres and a "deep cuts" playlist.`
   },
   {
+    title: "Eleventh Hour Rescue",
+    icons: ["devicon-nodejs-plain", "devicon-react-original", "devicon-mongodb-plain", "devicon-express-original"],
+    videoSrc: "https://github.com/ajmonda/dev-portfolio/blob/feature/videos/src/media/EleventhHour.mov?raw=true",
+    summary: "Redesign of a nonprofit website in collaboration with a team of UX designers and three other developers. Priority was placed on pixel fidelity to the UX template and full CRUD capability. Here, a reusable React component I created is used by my teammates across all of the interface’s screens.",
+    url: "https://elastic-lovelace3-0a232e.netlify.app/"
+  },
+  {
     title: "Write to Congress",
     icons: [
       "devicon-html5-plain",
@@ -87,11 +94,5 @@ export const projects = [
     ],
     videoSrc: "https://github.com/ajmonda/dev-portfolio/blob/feature/videos/src/media/Congress.mov?raw=true",
     summary: "The first app I ever developed, with dynamic DOM manipulation entirely through vanilla JavaScript and CSS, calls on Google's Civic Information API to provide the user with easy, streamlined and uncluttered access to contacting their representatives."
-  },
-  {
-    title: "Eleventh Hour Rescue",
-    icons: ["devicon-nodejs-plain", "devicon-react-original", "devicon-mongodb-plain", "devicon-express-original"],
-    videoSrc: "https://github.com/ajmonda/dev-portfolio/blob/feature/videos/src/media/EleventhHour.mov?raw=true",
-    summary: "Redesign of a nonprofit website in collaboration with a team of UX designers and three other developers. Priority was placed on pixel fidelity to the UX template and full CRUD capability. Here, a reusable React component I created is used by my teammates across all of the interface’s screens."
   }
 ];

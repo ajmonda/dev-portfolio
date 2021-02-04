@@ -1,35 +1,27 @@
 .subtitle {
   align-items: center;
-  /* width: 63.5vw; */
   background-color: #ffd700;
   padding: 0.5vw 1vw;
-
-  /* transform: scaleX(0);
-  transform-origin: left;
-  animation: grow-left 0.8s forwards;
-  animation-delay: 0.5s; */
-
-}
-
-.subtitleContainer {
-  width: 100%;
-  justify-content: space-between;
   display: flex;
-  /* opacity: 0;
-  animation: fade-in-down ease 1.4s forwards;
-
-  animation-delay: 1.3s; */
+  flex-direction: row-reverse;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: grow-left ease-in 0.5s forwards;
+  animation-delay: 0.6s;
 }
+
 
 .subtitle h2 {
   font-size: 18px;
   margin: 0;
   font-family: "Quicksand";
+  opacity: 0;
+  animation: fade-in-down ease 1s forwards;
+
+  animation-delay: 1.3s;
 }
-.subtitleLinks i {
-  font-size: 24.5px;
-  color: black;
-  text-decoration: none;
-  padding-right: 2vw;
-  padding-left: 0.5vw;
+
+.subtitle-links {
+  position: relative;
+  z-index: 3000000;
 }

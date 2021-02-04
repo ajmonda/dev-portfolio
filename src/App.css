@@ -10,6 +10,14 @@
     transform: translateY(0);
   }
 }
+@keyframes grow-up{
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
 @keyframes grow-left {
   from {
     transform: scaleX(0);
@@ -56,6 +64,10 @@
     hsla(291, 35%, 15%, 1) 20%,
     hsla(3, 100%, 64%, 1) 80%
   );
+  transform: scaleX(0);
+  transform-origin: bottom;
+  animation: grow-up ease-in 0.5s forwards;
+  animation-delay: 0.7s;
 
 }
 
@@ -64,6 +76,10 @@
   grid-template-columns: 57vw 37vw;
   margin: 3vw;
   margin-bottom: 0;
+  opacity: 0;
+  animation: fade-in-down ease 1s forwards;
+
+  animation-delay: 0.1s;
 }
 
 h3 {

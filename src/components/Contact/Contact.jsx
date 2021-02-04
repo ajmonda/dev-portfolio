@@ -19,13 +19,13 @@ export default function Contact() {
         <p
           style={{
             textAlign: "center",
-            margin: "50px",
+            marginBottom: "0"
           }}
         >
           I hope to hear from you! &#128075;
           <br />
-          <a href="#"><i class="devicon-linkedin-plain"></i></a>
-          <a href="#"><i class="devicon-github-original"></i></a>
+          <a href="https://www.linkedin.com/in/ajmonda/" target="_blank"><i class="devicon-linkedin-plain"></i></a>
+          <a href="https://github.com/ajmonda" target="blank"><i class="devicon-github-original"></i></a>
         </p>
       </div>
       <form className="contact-form">

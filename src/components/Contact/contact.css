@@ -3,7 +3,6 @@
   display: grid;
   grid-template-columns: 57vw 37vw;
   height: 100%;
-  margin-bottom: 30px;
 }
 .contact form {
   margin-left: 2em;
@@ -32,7 +31,8 @@ textarea {
   text-shadow: 0.5px 1px black;
   margin: 10px 0;
   width: 135px;
-  align-self: center;
+  width: 100%;
+  /* align-self: center; */
   padding: 10px;
 
   background: hsla(183, 57%, 53%, 1);
@@ -66,4 +66,20 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#41c4cb", en
   cursor: pointer;
   color: black;
   text-shadow: 0.5px 1px white;
+}
+
+.contact a {
+  margin: 15px;
+  margin-bottom: 0;
+  font-size: 30px;
+  color: gold;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #da3d09;
+}
+
+.contact button {
+  width: 100%;
 }

@@ -1,16 +1,17 @@
 .title {
   display: flex;
   flex-direction: column;
-  z-index: 100000;
+  z-index: 1000;
 }
 
 h1 {
   font-family: "Ranga";
   margin: auto;
-  line-height: 0.75;
+  line-height: 1;
   color: #e97451;
   letter-spacing: -2px;
   font-size: 15vw;
+  line-height: 0.75;
 }
 
 .titleTextFill {
@@ -32,7 +33,10 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  height: 10%;
 }
+
 #y {
   color: #923120;
+  z-index: 100000000;
 }

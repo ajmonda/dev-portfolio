@@ -8,10 +8,17 @@
   font-size: 18px;
   display: flex;
   justify-content: center;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-self: center;
+  align-items: center;
+  height: 100%;
 }
 
 span {
@@ -22,7 +29,7 @@ span {
   filter: saturate(150%);
   border-radius: 360px;
   border: 1px solid black;
-  max-width: 22vw;
+  max-width: 20vw;
   grid-column-start: 2;
   align-self: center;
   justify-self: center;

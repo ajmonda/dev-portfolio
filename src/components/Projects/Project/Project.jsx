@@ -34,9 +34,9 @@ export default function Project(props) {
           })}
         </h4>
         <p>{props.summary}</p>
-        <button className="project-button">
+        <a href={props.url} target="_blank"><button className="project-button">
           Launch
-        </button>
+        </button></a>
       </div>
     </div>
   );

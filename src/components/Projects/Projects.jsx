@@ -28,6 +28,7 @@ export default function Projects() {
             videoSrc={project.videoSrc}
             icons={project.icons}
             summary={project.summary}
+            url={project.url}
           />
         );
       })}

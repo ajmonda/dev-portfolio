@@ -7,7 +7,7 @@ export default function Title() {
     <div className="title">
       
       <div className="titleText">
-        <h1>Tony Monda</h1>
+        <h1>Ton<span id="x">y</span> Monda</h1>
       </div>
 
       <div className="titleTextFill">

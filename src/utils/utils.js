@@ -60,7 +60,8 @@ export const projects = [
       "devicon-postgresql-plain",
     ],
     videoSrc: "https://github.com/ajmonda/dev-portfolio/blob/feature/videos/src/media/RubyDungeon.mov?raw=true",
-    summary: "A brief but ambitious retro-inspired browser RPG that features a scalable inventory system by way of a back-end built with Rails. Enlist the aid of four great sages (my former instructors) to find your treasure, bypass locked doors, and keep track of your location with a dynamic mini-map."
+    summary: "A brief but ambitious retro-inspired browser RPG that features a scalable inventory system by way of a back-end built with Rails. Enlist the aid of four great sages (my former instructors) to find your treasure, bypass locked doors, and keep track of your location with a dynamic mini-map.",
+    url: "https://ruby-dungeon.netlify.app/"
   },
   {
     title: "Spotify Niche",
@@ -70,7 +71,8 @@ export const projects = [
       "devicon-express-original"
     ],
     videoSrc: "https://github.com/ajmonda/dev-portfolio/blob/feature/videos/src/media/Niche.mov?raw=true",
-    summary: `Analyzes the average popularity of your favorite Spotify artists and assigns a score with 100 being the most obsucre and 1 being, well, basic. An interactive slider shows where those artists fall on that spectrum. Additional features: text graph of favorite genres and a "deep cuts" playlist.`
+    summary: `Analyzes the average popularity of your favorite Spotify artists and assigns a score with 100 being the most obsucre and 1 being, well, basic. An interactive slider shows where those artists fall on that spectrum. Additional features: text graph of favorite genres and a "deep cuts" playlist.`,
+    url: "https://spoitfy-niche.netlify.app/"
   },
   {
     title: "Write to Congress",
@@ -80,7 +82,8 @@ export const projects = [
       "devicon-javascript-plain"
     ],
     videoSrc: "https://github.com/ajmonda/dev-portfolio/blob/feature/videos/src/media/Congress.mov?raw=true",
-    summary: "The first app I ever developed, with dynamic DOM manipulation entirely through vanilla JavaScript and CSS, calls on Google's Civic Information API to provide the user with easy, streamlined and uncluttered access to contacting their representatives."
+    summary: "The first app I ever developed, with dynamic DOM manipulation entirely through vanilla JavaScript and CSS, calls on Google's Civic Information API to provide the user with easy, streamlined and uncluttered access to contacting their representatives.",
+    url: "https://write-to-congress.netlify.app/"
   },
   {
     title: "Eleventh Hour Rescue",

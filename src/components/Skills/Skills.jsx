@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { skills } from "../../utils/copy";
+import { skills } from "../../utils/utils";
 
 import "./skills.css";
 
@@ -10,7 +10,7 @@ export default function Skills(props) {
   return (
     <div className="skills" style={props.style}>
       <div className="skills-text">
-        <h3>Skills</h3>
+        <a name="skills" /><h3>Skills</h3>
         <p>
           In the midst of the ongoing pandemic, I enrolled in General Assembly
           New York's intensive software engineering immersive program. After

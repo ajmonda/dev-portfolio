@@ -8,7 +8,9 @@ export default function Intro() {
       <p>
         Hi. I'm Tony, and I love a<span>&nbsp;challenge</span>. &#128170;
       </p>
-       <button className="resume-button">View My Resume</button>
+        
+       <a href="https://github.com/ajmonda/dev-portfolio/raw/cleanup/src/media/tony_monda_resume.pdf" download><button className="resume-button">Download My Resume</button></a>
+        
       </div>
       
       <img id="me" src="https://i.imgur.com/yVseRYX.png" alt="me" />

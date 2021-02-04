@@ -2,13 +2,13 @@ import React from "react";
 import Project from "./Project/Project";
 import "./projects.css";
 
-import { projects } from "../../utils/copy";
+import { projects } from "../../utils/utils";
 
 export default function Projects() {
   return (
     <div className="projects">
       <div className="projects-header">
-        <h3>Projects</h3>
+        <a name="projects" /><h3>Projects</h3>
         <p
           style={{
             color: "gold",
@@ -28,6 +28,7 @@ export default function Projects() {
             videoSrc={project.videoSrc}
             icons={project.icons}
             summary={project.summary}
+            url={project.url}
           />
         );
       })}

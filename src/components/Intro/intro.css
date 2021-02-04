@@ -8,10 +8,17 @@
   font-size: 18px;
   display: flex;
   justify-content: center;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-self: center;
+  align-items: center;
+  height: 100%;
 }
 
 span {
@@ -26,4 +33,12 @@ span {
   grid-column-start: 2;
   align-self: center;
   justify-self: center;
+}
+
+.intro a {
+  text-decoration: none;
+}
+
+.intro button {
+  width: 200px;
 }

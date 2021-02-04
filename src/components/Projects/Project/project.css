@@ -25,26 +25,11 @@
   border: 2px solid white;
 }
 
-.video-container {
-  position: relative;
-  width: 54vw;
-}
-.overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* height: 100%; */
-  position: absolute;
-  /* width: 100%; */
-  top: 0;
-  background-color: white;
-  opacity: .3;
-}
-
 .project p {
   color: gold;
   margin-left: 2em;
   margin-top: 0;
   margin-bottom: 1em;
-  line-height: 1.2;
+  line-height: 1.3;
+  font-weight: 500;
 }

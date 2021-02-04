@@ -5,8 +5,6 @@
   height: 100%;
   margin-bottom: 30px;
 }
-
-
 .contact form {
   margin-left: 2em;
   margin-top: 3em;
@@ -14,16 +12,15 @@
   flex-direction: column;
   grid-column-start: 2;
 }
-
+.contact-text {
+  margin-right: 30px;
+}
 .contact-form input,
 textarea {
   margin: 0.5em 0;
   padding: 0.6em;
-  /* background-color: #8DE2E2; */
-  /* font-weight: bold; */
-  /* color: white; */
   font-family: "Quicksand";
-  font-size: 16px;
+  font-size: 15px;
   border-style: inset;
   border-color: #6ed8d8;
   resize: none;
@@ -61,12 +58,12 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#41c4cb", en
 
   border-radius: 5px;
   border-style: none;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 #click:hover {
   text-emphasis: bold;
   cursor: pointer;
   color: black;
-  text-shadow: 0.5px 0.5px turquoise;
+  text-shadow: 0.5px 1px white;
 }

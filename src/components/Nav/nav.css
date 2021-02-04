@@ -14,3 +14,7 @@ nav a {
   text-decoration: none;
   padding: 0;
 }
+
+nav a:hover {
+  color: #da3d09;
+}

@@ -1,13 +1,12 @@
 .subtitle {
   align-items: center;
-  /* width: 63.5vw; */
   background-color: #ffd700;
   padding: 0.5vw 1vw;
 
-  /* transform: scaleX(0);
+  transform: scaleX(0);
   transform-origin: left;
   animation: grow-left 0.8s forwards;
-  animation-delay: 0.5s; */
+  animation-delay: 0.5s;
 
 }
 
@@ -15,10 +14,9 @@
   width: 100%;
   justify-content: space-between;
   display: flex;
-  /* opacity: 0;
+  opacity: 0;
   animation: fade-in-down ease 1.4s forwards;
-
-  animation-delay: 1.3s; */
+  animation-delay: 1.3s;
 }
 
 .subtitle h2 {
@@ -26,6 +24,7 @@
   margin: 0;
   font-family: "Quicksand";
 }
+
 .subtitleLinks i {
   font-size: 24.5px;
   color: black;

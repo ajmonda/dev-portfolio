@@ -5,9 +5,9 @@ import './nav.css'
 export default function Nav() {
   return (
     <nav>
-      <a href="#">SKILLS</a>
-      <a href="#">PROJECTS</a>
-        <a href="#">CONTACT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
     </nav>
   )
 }

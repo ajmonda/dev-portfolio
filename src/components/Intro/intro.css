@@ -22,8 +22,16 @@ span {
   filter: saturate(150%);
   border-radius: 360px;
   border: 1px solid black;
-  max-width: 20vw;
+  max-width: 22vw;
   grid-column-start: 2;
   align-self: center;
   justify-self: center;
+}
+
+.intro a {
+  text-decoration: none;
+}
+
+.intro button {
+  width: 200px;
 }

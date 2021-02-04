@@ -14,14 +14,12 @@ export default function Project(props) {
 
   return (
     <div className="project">
-      <div className="video-container">
         <video
           onMouseOver={(e) => handleMouseOver(e)}
           onMouseOut={(e) => handleMouseOut(e)}
         >
           <source src={props.videoSrc} />
         </video>
-      </div>
 
       <div className="project-summary">
         <h4>{props.title}</h4>

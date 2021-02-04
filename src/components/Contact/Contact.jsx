@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="contact">
             <div className="contact-text">
-      <h3>Contact</h3>
+      <a name="contact" /><h3>Contact</h3>
       <p>
         Since graduating from boot camp, I've been on the lookout for my next
         challenge. I am constantly honing and leveling up my skillset, building

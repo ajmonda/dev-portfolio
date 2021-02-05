@@ -58,6 +58,7 @@ export default function Contact() {
         <input type="hidden" name="contact_number" />
         <input
           type="name"
+          name="name"
           placeholder="Name"
           value={formValues.name}
           onChange={handleChange}

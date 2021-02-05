@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import NetlifyForm from "react-ssg-netlify-forms";
+
 import "./contact.css";
 
 export default function Contact() {
+  const [formValues, setFormValues] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const postSubmit = () => {
+    window.alert("Thank you!");
+  };
+
+  const handleChange = (e) => {
+    setFormValues({ ...formValues, [e.target.name]: e.target.value });
+  };
+
   return (
     <div className="contact">
       <div className="contact-text">
@@ -19,22 +35,51 @@ export default function Contact() {
         <p
           style={{
             textAlign: "center",
-            marginBottom: "0"
+            marginBottom: "0",
           }}
         >
           I hope to hear from you! &#128075;
           <br />
-          <a href="https://www.linkedin.com/in/ajmonda/" target="_blank"><i class="devicon-linkedin-plain"></i></a>
-          <a href="https://github.com/ajmonda" target="blank"><i class="devicon-github-original"></i></a>
+          <a href="https://www.linkedin.com/in/ajmonda/" target="_blank">
+            <i class="devicon-linkedin-plain"></i>
+          </a>
+          <a href="https://github.com/ajmonda" target="blank">
+            <i class="devicon-github-original"></i>
+          </a>
         </p>
       </div>
-      <form className="contact-form">
+
+      <NetlifyForm
+        className="contact-form"
+        formName="contact"
+        formValues={formValues}
+        postSubmit={postSubmit}
+      >
         <input type="hidden" name="contact_number" />
-        <input type="text" name="user_name" placeholder="Name" />
-        <input type="email" name="user_email" placeholder="Email" />
-        <textarea rows="5" name="message"></textarea>
+        <input
+          type="name"
+          placeholder="Name"
+          value={formValues.name}
+          onChange={handleChange}
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          value={formValues.email}
+          onChange={handleChange}
+          required
+        />
+        <textarea
+          rows="5"
+          name="message"
+          value={formValues.message}
+          onChange={handleChange}
+          required
+        />
         <input id="click" type="submit" value="Send" />
-      </form>
+      </NetlifyForm>
     </div>
   );
 }

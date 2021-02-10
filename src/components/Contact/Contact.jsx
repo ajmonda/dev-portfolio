@@ -55,9 +55,8 @@ export default function Contact() {
         formValues={formValues}
         postSubmit={postSubmit}
       >
-        <input type="hidden" name="contact_number" />
         <input
-          type="name"
+          type="text"
           name="name"
           placeholder="Name"
           value={formValues.name}
